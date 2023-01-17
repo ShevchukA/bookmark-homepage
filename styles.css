@@ -761,10 +761,13 @@ footer {
 
     .main-section-buttons{
         justify-content: center;
+        flex-wrap: wrap;
     }
 
-    .main-info .blue-button {
-        margin-right: 10px;
+    .main-info .blue-button,
+    .main-info .light-button
+     {
+        margin: 10px 10px;
     }
 
     .main-header {
